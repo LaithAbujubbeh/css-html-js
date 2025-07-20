@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: #EEEEEE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin:0 auto;
+}
+
+.container > div> h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-family: "Cursed Timer ULiL" , sans-serif;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: #080001;
+    margin: 30px auto;
+    
+}
+
+#buttons{
+    
+    width: 155px;
+}
+
+#buttons > button {
+    font-family: "Cursed Timer ULiL" , sans-serif;
+    border: 2px solid #9AABD8;
+    background-color: transparent;
+    color: #9AABD8;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
