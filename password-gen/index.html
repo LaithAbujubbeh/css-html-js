@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PassWord</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="content">
+            <div class="header">
+                <h1 class="heading">Generate a <span>random password</span></h1>
+                </h1>
+            </div>
+            <p>Never use an insecure password again.</p>
+            <div class="form">
+              <button onclick="generatePassword()">Generate passwords</button>
+              <div class="form-info">
+                <label>
+                  How many Characters? up to 32 
+                  <input class="numberIn" type="number" id="char-number" minlength="16"  min="0" max="32"  placeholder="ex 32...">
+                </label>
+                <label>
+                    <input type="checkbox" id="symbols" />
+                    <span class="text-form">No symbols</span>
+                </label>
+                <label>
+                  <input type="checkbox" id="numbers" />
+                    <span class="text-form">No numbers</span>
+                </label>
+                
+              </div>
+            </div>
+            <hr>
+            <div class="passwords">
+                <div class="pass-container" id="first-pass-el">
+                  
+                </div>
+                <div class="pass-container"  id="second-pass-el">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
