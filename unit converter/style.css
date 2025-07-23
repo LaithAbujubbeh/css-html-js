@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: #0c0c0c;
+  font-family: "inter", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  margin: 50px auto 30px;
+  width: 550px;
+}
+
+.field-container {
+  background-color: #6943ff;
+  height: 285px;
+  width: 550px;
+  box-sizing: border-box;
+  padding: 15px 30px;
+}
+
+.field-container h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: extrabold;
+}
+
+#input-el {
+  width: 80%;
+  box-sizing: border-box;
+  height: 60px;
+  text-align: center;
+  font-size: 58px;
+  color: #fff;
+  font-weight: bold;
+  padding: 35px 0;
+  background-color: transparent;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.field-container button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  color: #3d3d3d;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.div {
+  background-color: #f4f4f4;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div div {
+  background-color: #fff;
+  width: 500px;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.div div h1 {
+  font-size: 1.2rem;
+  color: #5a537b;
+}
+
+.div div p {
+  color: #353535;
+}
