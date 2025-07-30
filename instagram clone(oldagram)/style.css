@@ -1,0 +1,98 @@
+body {
+  margin: 0 auto;
+  width: 375px;
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #ededed;
+}
+
+/* Header */
+
+.nav-contianer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c6c6c6;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.avatar {
+  width: 34px;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 127px;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+}
+
+.img p {
+  font-size: 0.8rem;
+}
+
+/* Hero Section */
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #fff;
+}
+
+.div {
+  margin-left: 10px;
+}
+
+.div p {
+  font-size: 0.8rem;
+}
+
+.img-post img {
+  width: 375px;
+}
+.img-post {
+  background-color: #fff;
+}
+
+/* Comments section */
+
+.comment-container {
+  margin: 20px;
+  background-color: #fff;
+}
+.icons img {
+  width: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.likes,
+.username {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.username {
+  padding-bottom: 20px;
+}
+
+/* Universal */
+
+.mb {
+  margin-bottom: 0;
+}
+
+.mt {
+  margin-top: 0;
+}
+
+.light {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
