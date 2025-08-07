@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resturant</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <script src="index.js" type="module"></script>
+
+    <header>
+      <div class="container">
+        <img
+          src="./images/header.png"
+          alt="the logo img of the site that shows a burger" />
+      </div>
+    </header>
+    <main>
+      <div class="menu">
+        <div class="menu-items" id="menu-items">
+          <div class="menu-item"></div>
+          <button class="add-btn" id="add-btn">+</button>
+        </div>
+      </div>
+
+      <div class="order">
+        <h2>Your Order</h2>
+        <div>
+          <div class="order-item" id="order-item"></div>
+
+          <div class="order-summary" id="order-summary">
+            <h3>Total Price</h3>
+            <span id="total">$0</span>
+          </div>
+          <div>
+            <button class="complete-order-btn" id="complete-order-btn">
+              Complete Order
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <form class="payment-form" id="payment-form">
+        <div>
+          <h2>Enter Card Details</h2>
+          <input
+            type="text"
+            required
+            placeholder="Enter Your Name"
+            name="full-name" />
+          <input
+            type="text"
+            required
+            maxlength="16"
+            inputmode="numeric"
+            pattern="[0-9]{16}"
+            placeholder="Enter Your Card Number"
+            name="card-number" />
+
+          <input
+            type="text"
+            required
+            maxlength="3"
+            inputmode="numeric"
+            pattern="[0-9]{3}"
+            placeholder="Enter Your CVV"
+            name="cvv" />
+          <button id="pay" type="submit">Pay</button>
+        </div>
+      </form>
+
+      <div class="order-details" id="order-details"></div>
+    </main>
+  </body>
+</html>
